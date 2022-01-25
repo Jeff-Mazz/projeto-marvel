@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'FonteLogo';
-    src: url(../_fonts/bubblegum-sans-regular.otf);
+    src: url(../_fonts/far-fromhomecoming-updated.otf);
 }
 
 body {
@@ -34,21 +34,19 @@ header#topo {
     border-bottom: 1px solid white;
     padding: 10px;
     margin: auto;
-    height: 150px;
-    background: url('../_fotos/marvel-logo.png') no-repeat 50% 50%;
+    height: 200px;
+    background: url('../_fotos/marvel-logo.png') no-repeat 50% 25%;
 }
-h1.topo {
-    font-size: 25pt;
-    font-family: 'FonteLogo';
-    margin: 0px auto 0px auto;
-}
-h2.topo {
-    font-size: 22pt;
-    font-family: 'FonteLogo';
-    margin: 2px auto 0px auto;
-    color:rgba(245, 245, 245,1);
-}
-h3.topo {
+
+h3 {
     float: right;
-    margin-top: 60px;
+    margin-top: 185px;
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: 'FonteLogo';
+    margin-top: 130px;
+    margin-left: 580px;
+    color: rgb(128, 128, 128);
 }
